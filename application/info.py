@@ -70,6 +70,24 @@ nova_micro_models = [   # Nova Micro
     }
 ]
 
+claude_4_sonnet_models = [  # Claude 4 Sonnet
+    {
+        "bedrock_region": "us-west-2",  # Oregon
+        "model_type": "claude",
+        "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+    },
+    {
+        "bedrock_region": "us-east-1",  # N.Virginia
+        "model_type": "claude",
+        "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+    },
+    {
+        "bedrock_region": "us-east-2",  # Ohio
+        "model_type": "claude",
+        "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+    },
+]
+
 claude_3_7_sonnet_models = [   # Sonnet 3.7
     {
         "bedrock_region": "us-west-2",  # Oregon
